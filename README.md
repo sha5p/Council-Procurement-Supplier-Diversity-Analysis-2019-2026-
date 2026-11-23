@@ -45,9 +45,9 @@ To answer this, the dashboard tracks total procurement spend across the entire 2
   * **Dynamic Breakdown:** Integrated a proportional **Donut Chart** tied to the year slicer, allowing stakeholders to evaluate regional capture rates across both the 7-year aggregate and individual calendar years.
 
 * **Key Findings & Observations:**
-  * **Strong Regional Retention:** Across the full 7-year timeline, total council procurement reached **$2.75B**[cite: 4].
-  * **Local vs. Non-Local Split:** The council consistently prioritizes local vendors, retaining **77.98%** (~$2.14B) of total spend locally, while **22.02%** (~$0.60B) went to non-local suppliers[cite: 4].
-  * **Cyclical Spending Patterns:** Monthly local spend fluctuates between **$11M and $55M**[cite: 4], showing predictable mid-year peaks (May–July) aligned with end-of-financial-year capital works.
+  * **Strong Regional Retention:** Across the full 7-year timeline, total council procurement reached **$2.75B**.
+  * **Local vs. Non-Local Split:** The council consistently prioritizes local vendors, retaining **77.98%** $2.14B of total spend locally, while **22.02%** $0.60B went to non-local suppliers.
+  * **Cyclical Spending Patterns:** Monthly local spend fluctuates between **$11M and $55M**, showing predictable mid-year peaks (May–July) aligned with end-of-financial-year capital works.
 
 ---
 
@@ -58,8 +58,8 @@ To answer this, the dashboard tracks total procurement spend across the entire 2
   * **Time-Series Tracking:** Placed dedicated monthly trend lines alongside multi-year summary cards to monitor baseline growth and spot specific milestone-driven contract spikes.
 
 * **Key Findings & Observations:**
-  * **Overall Baseline:** Indigenous-owned businesses accounted for an average of **0.96%** (~$0.03B) of total expenditure across the multi-year period[cite: 4].
-  * **2022 Surge:** Drilling down into **2022** ($403.76M total spend) reveals a standout year where Indigenous procurement rose to **1.46%** ($5.9M), outperforming the multi-year average[cite: 4].
+  * **Overall Baseline:** Indigenous-owned businesses accounted for an average of **0.96%** (~$0.03B) of total expenditure across the multi-year period.
+  * **2022 Surge:** Drilling down into **2022** ($403.76M total spend) reveals a standout year where Indigenous procurement rose to **1.46%** ($5.9M), outperforming the multi-year average.
   * **Project-Driven Spikes:** Monthly Indigenous spend experienced sharp peaks in **May 2022 (~$1.4M)** and **July 2022 (~$1.7M)**, indicating that volume is driven by major milestone-based contract awards rather than recurring operational spend.
 
 
