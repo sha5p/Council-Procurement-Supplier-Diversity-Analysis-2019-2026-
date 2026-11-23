@@ -14,18 +14,18 @@ This dashboard was designed to answer three core executive questions:
 
 - Indigenous Procurement Growth: How has the share of spend dedicated to Indigenous-owned businesses trended year-over-year? (~0.97% average share).
 
-### Question 1: What is the total volume of council expenditure over time
+### Question 1: What is the total volume of council expenditure over time?
 
-The end result of the design resulted in the following visualizations allow for navigation on specific time as well as a representation of total timme. 
-<img width="915" height="431" alt="image" src="https://github.com/user-attachments/assets/74844663-5d4f-4ab2-8613-0a962a8d0b76" />
-<img width="876" height="426" alt="image" src="https://github.com/user-attachments/assets/485515e4-12f4-439c-a185-c71e2b515ddc" />
+To answer this, the dashboard tracks total procurement spend across the entire 2019–2026 period ($2.75B baseline) while allowing users to drill down into specific years on demand.
 
+<img width="915" height="431" alt="Total Expenditure Over Time" src="https://github.com/user-attachments/assets/74844663-5d4f-4ab2-8613-0a962a8d0b76" />
+<img width="876" height="426" alt="Filtered Year View" src="https://github.com/user-attachments/assets/485515e4-12f4-439c-a185-c71e2b515ddc" />
 
+<img width="1458" height="730" alt="Interactive Slicer Demo GIF" src="https://github.com/user-attachments/assets/6e136190-abd6-4b93-b595-44eaa95bcdaa" />
 
-<img width="1458" height="730" alt="sadwadawdawd" src="https://github.com/user-attachments/assets/6e136190-abd6-4b93-b595-44eaa95bcdaa" />
-
-
-The gift representation the transistion of selecting speicifc data if needed for the user or if general data is targeted instead then this can be done as well this was made through clearlying the schema and transofming the data specfically dates to accrutaly be able to represent results as time goes by then using a slicer visulisation to ensure that the structured data would then have an easy way to represent inforamtion. 
+**How it was built & how it works:**
+* **Interactive Navigation:** The GIF above demonstrates how stakeholders can seamlessly toggle between a high-level, multi-year overview and granular single-year views using an interactive **Year Slicer**.
+* **Data & Schema Transformation:** To ensure accurate chronological tracking, the raw dataset schema was cleaned in Power Query—specifically standardizing date formats so time-series trends render in proper sequential order without sorting errors.
 
 
 What was found was that 
