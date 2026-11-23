@@ -38,35 +38,29 @@ To answer this, the dashboard tracks total procurement spend across the entire 2
 * **Interactive Navigation:** The GIF above demonstrates how stakeholders can seamlessly toggle between a high-level, multi-year overview and granular single-year views using an interactive **Year Slicer**.
 * **Data & Schema Transformation:** To ensure accurate chronological tracking, the raw dataset schema was cleaned in Power Query—specifically standardizing date formats so time-series trends render in proper sequential order without sorting errors.
 
+### Question 2: What percentage of total spend goes to local vendors compared to non-local suppliers?
 
-## 📈 Key Findings & Data Observations
+* **How it was built & how it works:**
+  * **DAX & Modeling:** Created calculated measures using the `DIVIDE` function to compute exact ratios between local and non-local spend categories against the overall total baseline.
+  * **Dynamic Breakdown:** Integrated a proportional **Donut Chart** tied to the year slicer, allowing stakeholders to evaluate regional capture rates across both the 7-year aggregate and individual calendar years.
 
-### 1. Strong Regional Retention (2019–2026 Overall Baseline)
-* **Total Expenditure:** Across the full 7-year timeline, total council procurement reached **$2.75B**[cite: 4].
-* **Local vs. Non-Local Split:** The council consistently prioritizes local vendors, retaining **77.98%** (~$2.14B) of total spend within the local economy while **22.02%** (~$0.60B) went to non-local suppliers[cite: 4].
-* **Cyclical Spending Patterns:** Monthly local spend fluctuates between **$11M and $55M**[cite: 4], showing predictable mid-year spikes (typically around May–July) that align with end-of-financial-year budget execution and major capital works.
+* **Key Findings & Observations:**
+  * **Strong Regional Retention:** Across the full 7-year timeline, total council procurement reached **$2.75B**[cite: 4].
+  * **Local vs. Non-Local Split:** The council consistently prioritizes local vendors, retaining **77.98%** (~$2.14B) of total spend locally, while **22.02%** (~$0.60B) went to non-local suppliers[cite: 4].
+  * **Cyclical Spending Patterns:** Monthly local spend fluctuates between **$11M and $55M**[cite: 4], showing predictable mid-year peaks (May–July) aligned with end-of-financial-year capital works.
 
-### 2. Indigenous Supplier Performance & 2022 Peak Spotlight
-* **Overall Baseline:** Indigenous-owned businesses accounted for **0.96%** (~$0.03B) of total expenditure across the full multi-year period[cite: 4].
-* **2022 Surge:** Drilling down into **2022** ($403.76M total spend) reveals a standout year for supplier diversity, where Indigenous procurement rose to **1.46%** ($5.9M)—significantly outperforming the multi-year average[cite: 4].
-* **Project-Driven Spikes:** Monthly Indigenous spend experienced sharp, concentrated peaks in **May 2022 (~$1.4M)** and **July 2022 (~$1.7M)**[cite: 5], indicating that Indigenous procurement volume is heavily driven by major, milestone-based contract awards rather than steady recurring operational spend.
+---
 
-### 3. Strategic Takeaway
-* While the council maintains a strong regional capture rate (~78% local), Indigenous procurement remains under **1.5%** even during peak years[cite: 5]. Leadership can use this baseline to establish targeted procurement quotas and smooth out month-to-month volatility by onboarding Indigenous suppliers into recurring operational contracts.
-* 
-### Question 2:  What percentage of total spend goes to local vendors compared to non-local suppliers?
+### Question 3: How has the share of spend dedicated to Indigenous-owned businesses trended over time?
 
-To answer this question what was done was the use of the moddeling tool combinded with sql queries spcfically to select the avg via dividing by sums of totals in tables this data was then further transformed by the slicer used above allow for representation of this information through each year to see exaclty how this information was cahnged. 
+* **How it was built & how it works:**
+  * **Targeted DAX Measures:** Developed specific percentage measures targeting Indigenous spend categories to isolate supplier diversity metrics from general procurement.
+  * **Time-Series Tracking:** Placed dedicated monthly trend lines alongside multi-year summary cards to monitor baseline growth and spot specific milestone-driven contract spikes.
 
-What was found was that 
-
-
-### Question 3:  Indigenous Procurement Growth 
-
-To answer this question the method was the same as question two but the query tiself was more targeted 
-
-This resulted in viding out that ....
-
+* **Key Findings & Observations:**
+  * **Overall Baseline:** Indigenous-owned businesses accounted for an average of **0.96%** (~$0.03B) of total expenditure across the multi-year period[cite: 4].
+  * **2022 Surge:** Drilling down into **2022** ($403.76M total spend) reveals a standout year where Indigenous procurement rose to **1.46%** ($5.9M), outperforming the multi-year average[cite: 4].
+  * **Project-Driven Spikes:** Monthly Indigenous spend experienced sharp peaks in **May 2022 (~$1.4M)** and **July 2022 (~$1.7M)**, indicating that volume is driven by major milestone-based contract awards rather than recurring operational spend.
 
 
 ## Data Source  
