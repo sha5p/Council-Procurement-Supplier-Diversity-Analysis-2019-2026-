@@ -18,10 +18,21 @@ This dashboard was designed to answer three core executive questions:
 
 To answer this, the dashboard tracks total procurement spend across the entire 2019–2026 period ($2.75B baseline) while allowing users to drill down into specific years on demand.
 
-<img width="915" height="431" alt="Total Expenditure Over Time" src="https://github.com/user-attachments/assets/74844663-5d4f-4ab2-8613-0a962a8d0b76" />
-<img width="876" height="426" alt="Filtered Year View" src="https://github.com/user-attachments/assets/485515e4-12f4-439c-a185-c71e2b515ddc" />
+### Visual Comparison: Multi-Year Trends vs. Filtered Views
 
-<img width="1458" height="730" alt="Interactive Slicer Demo GIF" src="https://github.com/user-attachments/assets/6e136190-abd6-4b93-b595-44eaa95bcdaa" />
+| Overview & Full Timeline ($2.75B Baseline) | Filtered Single-Year View (2026 Focus) |
+| :---: | :---: |
+| <img width="450" alt="Total Expenditure Over Time" src="https://github.com/user-attachments/assets/74844663-5d4f-4ab2-8613-0a962a8d0b76" /> | <img width="450" alt="Filtered Year View" src="https://github.com/user-attachments/assets/485515e4-12f4-439c-a185-c71e2b515ddc" /> |
+| *Tracks overall multi-year council procurement expenditure.* | *Filters down dynamically using the interactive Year Slicer.* |
+
+---
+
+### Interactive Dashboard Demonstration
+
+<p align="center">
+  <img width="900" alt="Interactive Slicer Demo GIF" src="https://github.com/user-attachments/assets/6e136190-abd6-4b93-b595-44eaa95bcdaa" />
+</p>
+<p align="center"><em>Demonstrating seamless dynamic filtering across custom time horizons.</em></p>
 
 **How it was built & how it works:**
 * **Interactive Navigation:** The GIF above demonstrates how stakeholders can seamlessly toggle between a high-level, multi-year overview and granular single-year views using an interactive **Year Slicer**.
