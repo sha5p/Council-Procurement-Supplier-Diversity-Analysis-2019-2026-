@@ -39,8 +39,21 @@ To answer this, the dashboard tracks total procurement spend across the entire 2
 * **Data & Schema Transformation:** To ensure accurate chronological tracking, the raw dataset schema was cleaned in Power Query—specifically standardizing date formats so time-series trends render in proper sequential order without sorting errors.
 
 
-What was found was that 
+## 📈 Key Findings & Data Observations
 
+### 1. Strong Regional Retention (2019–2026 Overall Baseline)
+* **Total Expenditure:** Across the full 7-year timeline, total council procurement reached **$2.75B**[cite: 4].
+* **Local vs. Non-Local Split:** The council consistently prioritizes local vendors, retaining **77.98%** (~$2.14B) of total spend within the local economy while **22.02%** (~$0.60B) went to non-local suppliers[cite: 4].
+* **Cyclical Spending Patterns:** Monthly local spend fluctuates between **$11M and $55M**[cite: 4], showing predictable mid-year spikes (typically around May–July) that align with end-of-financial-year budget execution and major capital works.
+
+### 2. Indigenous Supplier Performance & 2022 Peak Spotlight
+* **Overall Baseline:** Indigenous-owned businesses accounted for **0.96%** (~$0.03B) of total expenditure across the full multi-year period[cite: 4].
+* **2022 Surge:** Drilling down into **2022** ($403.76M total spend) reveals a standout year for supplier diversity, where Indigenous procurement rose to **1.46%** ($5.9M)—significantly outperforming the multi-year average[cite: 4].
+* **Project-Driven Spikes:** Monthly Indigenous spend experienced sharp, concentrated peaks in **May 2022 (~$1.4M)** and **July 2022 (~$1.7M)**[cite: 5], indicating that Indigenous procurement volume is heavily driven by major, milestone-based contract awards rather than steady recurring operational spend.
+
+### 3. Strategic Takeaway
+* While the council maintains a strong regional capture rate (~78% local), Indigenous procurement remains under **1.5%** even during peak years[cite: 5]. Leadership can use this baseline to establish targeted procurement quotas and smooth out month-to-month volatility by onboarding Indigenous suppliers into recurring operational contracts.
+* 
 ### Question 2:  What percentage of total spend goes to local vendors compared to non-local suppliers?
 
 To answer this question what was done was the use of the moddeling tool combinded with sql queries spcfically to select the avg via dividing by sums of totals in tables this data was then further transformed by the slicer used above allow for representation of this information through each year to see exaclty how this information was cahnged. 
@@ -58,5 +71,3 @@ This resulted in viding out that ....
 
 ## Data Source  
 Townsville City Council. (2026). Townsville City Council value of local spend (purchase orders) [Data set]. In Data.gov.au. https://data.gov.au/data/dataset/townsville-city-council-value-of-local-spend
-
-## Technical Implementation & Skills Demonstrated
